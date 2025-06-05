@@ -1,245 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dava Irsyad - Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-    <script
-      type="module"
-      src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"
-    ></script>
-  </head>
-  <body>
-    <!-- Navigation -->
-    <nav>
-      <div class="left">
-        <a href="#hero">Dava Irsyad</a>
-      </div>
-      <h2>media</h2>
-      <div class="right">
-        <a
-          href="https://github.com/XenoZero11"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa-brands fa-github"></i>
-          <span>Github</span>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/dava-irsyad-al-ahkam"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa-brands fa-linkedin-in"></i>
-          <span>LinkedIn</span>
-        </a>
-        <a
-          href="mailto:davairsyad389@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa-solid fa-envelope"></i>
-          <span>Gmail</span>
-        </a>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dava Irsyad Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Navigasi -->
+  <header>
+    <a href="#home" class="logo">Dava Irsyad</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#project">Project</a>
+      <a href="#contact">Contact</a>
     </nav>
+  </header>
 
-    <main>
-      <!-- Hero Section -->
-      <section class="hero-section" id="hero">
-        <div class="text">
-          <h2>Hello, I'm Dava</h2>
-          <p>
-            I am someone with a strong passion for 3D modeling, especially using
-            Blender. This hobby allows me to express my creativity through
-            detailed and imaginative visual designs. In addition to that, I also
-            have skills in programming, which strengthens my abilities in
-            technology and development.
-          </p>
-          <div class="link">
-            <a href="#skills"
-              ><i class="fa-solid fa-code"></i> <span>Skills</span></a
-            >
-            <a href="#project"
-              ><i class="fa-solid fa-code"></i> <span>Project</span></a
-            >
-            <a href="#contact"
-              ><i class="fa-solid fa-code"></i> <span>Contact</span></a
-            >
-          </div>
-        </div>
-        <div class="headshot">
-          <img src="image/Foto.jpg" alt="Dava Irsyad Photo" />
-        </div>
-      </section>
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="home-img">
+      <img src="image/kucing.jpg" alt="muka ku" />
+    </div>
+    <div class="home-content">
+      <h3>Hello! I’m</h3>
+      <h1>Dava Irsyad</h1>
+      <h3>And I'm a <span class="multiple-text">3D Art Modeling </span></h3>
+      <p>
+        I'm a passionate developer who loves building digital experiences. Whether it's websites, apps, or creative
+        tools, I enjoy turning ideas into reality with clean code and thoughtful design. I believe in continuous
+        learning and collaboration to create impactful solutions that matter.
+      </p>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/dava-irsyad-al-ahkam/"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/XenoZero11"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/xeno_761/"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <a href="#" class="btn">Dwonload my cv</a>
+    </div>
+  </section>
 
-      <!-- Skills Section -->
-      <section id="skills" class="skills-section">
-        <h2>Skills</h2>
-        <div class="text">
-          I have basic experience with HTML, CSS, C#, Unity, and Blender. I’ve
-          created a simple game using Unity and C#, and also made basic 3D
-          models in Blender. While I’m still learning and developing my skills,
-          I’m familiar with the core concepts and enjoy experimenting through
-          small personal projects.
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>I'm a <span>3d model game</span></h3>
+      <p>
+        I specialize in creating stylized and detailed 3D assets for games. From characters to environments, I focus on
+        bringing ideas to life with a balance of creativity and technical precision. With a passion for game
+        development, I aim to design assets that enhance gameplay and visual storytelling.
+      </p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+    <div class="about-img">
+      <img src="image/kucing.jpg" alt="muka ku" />
+    </div>
+  </section>
+
+  <!-- coba Skills -->
+  <section id="skills" class="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="skills-section">
+      <div class="text">
+        Here are some of the core skills I’ve developed through learning and hands-on experience. I focus on building
+        clean web interfaces with HTML and CSS, while also diving into C# programming and Unity for game development.
+        I'm also expanding my 3D asset creation abilities using Blender to support my game projects.
+      </div>
+      <div class="cells">
+        <div class="cell">
+          <img src="image/html-logo.webp" alt="html logo" />
+          <span>HTML</span>
         </div>
-        <div class="cells">
-          <div class="skill-1">
-            <div class="cell">
-              <img src="image/html-logo.webp" alt="HTML Logo" />
-              <span>HTML</span>
-            </div>
-            <div class="bacround-pre">
-              <div class="persentase-html-css">
-                <div class="text-persen-html-css">
-                  <span>80%</span>
-                </div>
+
+        <div class="cell">
+          <img src="image/css.png" alt="css logo" />
+          <span>CSS</span>
+        </div>
+
+        <div class="cell">
+          <img src="image/CSharp.png" alt="C sharp" />
+          <span>Csharp</span>
+        </div>
+
+        <div class="cell">
+          <img src="image/Unity.png" alt="Unity" />
+          <span>Unity</span>
+        </div>
+
+        <div class="cell">
+          <img src="image/logo.png" alt="Blender" />
+          <span>Blender</span>
+        </div>
+      </div>
+
+      <div class="skill-exp">
+        <h3>Skills Experience</h3>
+        <div class="persentase">
+          <div class="html">
+            <h3>HTML</h3>
+            <div class="persentase-skill">
+              <div class="text-persen-html">
+                <span>65%</span>
               </div>
             </div>
           </div>
-
-          <div class="skill-2">
-            <div class="cell">
-              <img src="image/css.png" alt="CSS Logo" />
-              <span>CSS</span>
-            </div>
-            <div class="bacround-pre">
-              <div class="persentase-html-css">
-                <div class="text-persen-html-css">
-                  <span>80%</span>
-                </div>
+          <div class="css">
+            <h3>CSS</h3>
+            <div class="persentase-skill">
+              <div class="text-persen-css">
+                <span>60%</span>
               </div>
             </div>
           </div>
-
-          <div class="skill-3">
-            <div class="cell">
-              <img src="image/CSharp.png" alt="C# Logo" />
-              <span>C#</span>
-            </div>
-            <div class="bacround-pre">
-              <div class="persentase-Csharp">
-                <div class="text-persen-Csharp">
-                  <span>65%</span>
-                </div>
+          <div class="Csharp">
+            <h3>C#</h3>
+            <div class="persentase-skill">
+              <div class="text-persen-Csharp">
+                <span>30%</span>
               </div>
             </div>
           </div>
-
-          <div class="skill-4">
-            <div class="cell">
-              <img src="image/Unity.png" alt="Unity Logo" />
-              <span>Unity</span>
-            </div>
-            <div class="bacround-pre">
-              <div class="persentase-unity">
-                <div class="text-persen-unity">
-                  <span>30%</span>
-                </div>
+          <div class="Unity">
+            <h3>Unity</h3>
+            <div class="persentase-skill">
+              <div class="text-persen-unity">
+                <span>25%</span>
               </div>
             </div>
           </div>
-          <div class="skill-5">
-            <div class="cell">
-              <img src="image/logo.png" alt="Blender Logo" />
-              <span>Blender</span>
-            </div>
-            <div class="bacround-pre">
-              <div class="persentase-blender">
-                <div class="text-persen">
-                  <span>45%</span>
-                </div>
+          <div class="Blender">
+            <h3>Blender</h3>
+            <div class="persentase-skill">
+              <div class="text-persen-blender">
+                <span>40%</span>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-      <!-- Projects Section -->
-      <section id="project" class="project-section">
-        <h2>Projects</h2>
-        <div class="proyek">
-          <!-- Kamu bisa ganti class "donat" menjadi "project-card" -->
-          <div class="donat">
-            <h3>Donut</h3>
-            <model-viewer
-              src="image/donat.glb"
-              alt="Donut 3D model"
-              auto-rotate
-              camera-controls
-              shadow-intensity="1"
-            ></model-viewer>
-          </div>
-          <div class="donat">
-            <h3>Donut</h3>
-            <model-viewer
-              src="image/donat.glb"
-              alt="Donut 3D model"
-              auto-rotate
-              camera-controls
-              shadow-intensity="1"
-            ></model-viewer>
-          </div>
-          <div class="donat">
-            <h3>Donut</h3>
-            <model-viewer
-              src="image/donat.glb"
-              alt="Donut 3D model"
-              auto-rotate
-              camera-controls
-              shadow-intensity="1"
-            ></model-viewer>
-          </div>
-        </div>
-      </section>
+  <!-- Project -->
+  <section class="project" id="project">
+    <h2 class="heading">My <span>Project</span></h2>
+    <div class="project-contener">
+      <div class="project-content">
+        <h3>Game Develop</h3>
+        <a href=""><img src="image/burung.png" alt="burung" /></a>
+      </div>
+      <div class="project-content">
+        <h3>3d Modeling</h3>
+        <a href=""><img src="image/Ruang.png" alt="ruang" /></a>
+      </div>
+    </div>
+  </section>
+  <!-- contact -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" name="Email" placeholder="Email Addres">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="phone number">
+        <input type="text" placeholder="email subject">
+      </div>
+      <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="send me message" class="btn">
+    </form>
+  </section>
+  <!--foonter section-->
+  <footer class="footer">
+    <div class="social">
+      <a href="https://www.linkedin.com/in/dava-irsyad-al-ahkam/"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href=https://github.com/XenoZero11"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.instagram.com/xeno_761/"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <p class="copyright">
+      &copy;Dava Irsyad
+    </p>
+  </footer>
+</body>
 
-      <!-- Contact Section -->
-      <section id="contact" class="contact-section">
-        <h2>Contact</h2>
-        <div class="group">
-          <div class="text">
-            I have experience in several areas of development and design,
-            particularly in HTML, CSS, C#, Unity, and Blender. I’m comfortable
-            working with HTML and CSS to build responsive and visually appealing
-            websites. I've spent time learning the fundamentals of C# and used
-            it in Unity to create a simple game project, which helped me
-            understand game logic and basic scripting. In Unity, I explored both
-            2D and basic 3D game mechanics, giving me insight into how games are
-            structured and how assets interact in a game engine. Additionally,
-            I’ve worked with Blender to create simple 3D models, primarily for
-            personal projects and practice purposes. Though I’m still in the
-            learning phase, I actively experiment with these tools to improve my
-            skills and deepen my understanding. My focus is on continuously
-            growing as a developer and designer. I enjoy taking on small
-            projects that challenge me to learn something new, whether it's
-            refining a layout with CSS or improving the realism of a 3D model in
-            Blender. Each tool I've used has taught me something valuable, and I
-            look forward to expanding my skill set even further.
-          </div>
-          <form>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" />
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" />
-
-            <label for="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              cols="30"
-              rows="10"
-            ></textarea>
-
-            <button type="submit">Send Message</button>
-          </form>
-        </div>
-      </section>
-    </main>
-  </body>
 </html>
