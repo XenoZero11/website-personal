@@ -7,6 +7,7 @@
   <title>Dava Irsyad Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
   <!-- Home -->
   <section class="home" id="home">
     <div class="home-img">
-      <img src="image/kucing.jpg" alt="muka ku" />
+      <img src="Foto.jpg" alt="muka ku" />
     </div>
     <div class="home-content">
       <h3>Hello! I’m</h3>
@@ -41,9 +42,18 @@
         <a href="https://www.linkedin.com/in/dava-irsyad-al-ahkam/"><i class="fa-brands fa-linkedin-in"></i></a>
         <a href="https://github.com/XenoZero11"><i class="fa-brands fa-github"></i></a>
         <a href="https://www.instagram.com/xeno_761/"><i class="fa-brands fa-instagram"></i></a>
+
+    <div class="popup" id="popup-1">
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <h1>POP UP</h1>
+        <p>POP UPPPPPPPP</p>
       </div>
-      <a href="#" class="btn">Dwonload my cv</a>
     </div>
+    
+    <button class="btn" onclick="togglePopup()">Show Popup</button>
+    
   </section>
 
   <!-- About -->
@@ -59,7 +69,7 @@
       <a href="#" class="btn">Read More</a>
     </div>
     <div class="about-img">
-      <img src="image/kucing.jpg" alt="muka ku" />
+      <img src="Foto.jpg" alt="muka ku" />
     </div>
   </section>
 
@@ -74,27 +84,27 @@
       </div>
       <div class="cells">
         <div class="cell">
-          <img src="image/html-logo.webp" alt="html logo" />
+          <img src="html-logo.webp" alt="html logo" />
           <span>HTML</span>
         </div>
 
         <div class="cell">
-          <img src="image/css.png" alt="css logo" />
+          <img src="css.png" alt="css logo" />
           <span>CSS</span>
         </div>
 
         <div class="cell">
-          <img src="image/CSharp.png" alt="C sharp" />
+          <img src="CSharp.png" alt="C sharp" />
           <span>Csharp</span>
         </div>
 
         <div class="cell">
-          <img src="image/Unity.png" alt="Unity" />
+          <img src="Unity.png" alt="Unity" />
           <span>Unity</span>
         </div>
 
         <div class="cell">
-          <img src="image/logo.png" alt="Blender" />
+          <img src="logo.png" alt="Blender" />
           <span>Blender</span>
         </div>
       </div>
@@ -153,25 +163,26 @@
     <div class="project-contener">
       <div class="project-content">
         <h3>Game Develop</h3>
-        <a href=""><img src="image/burung.png" alt="burung" /></a>
+        <a href=""><img src="burung.png" alt="burung" /></a>
       </div>
       <div class="project-content">
         <h3>3d Modeling</h3>
-        <a href=""><img src="image/Ruang.png" alt="ruang" /></a>
+        <a href=""><img src="Ruang.png" alt="ruang" /></a>
+      </div>
+      <div class="project-content">
+        <h3>Portofolio</h3>
+        <a href=""><img src="porto.png" alt="ruang" /></a>
       </div>
     </div>
   </section>
   <!-- contact -->
   <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me</span></h2>
-    <form action="">
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="27ac004e-b2e0-4169-b155-fad631523ab7">
       <div class="input-box">
         <input type="text" placeholder="Full Name">
         <input type="email" name="Email" placeholder="Email Addres">
-      </div>
-      <div class="input-box">
-        <input type="number" placeholder="phone number">
-        <input type="text" placeholder="email subject">
       </div>
       <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
       <input type="submit" value="send me message" class="btn">
